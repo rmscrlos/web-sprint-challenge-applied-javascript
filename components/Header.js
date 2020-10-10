@@ -40,4 +40,4 @@ function Header() {
 
 }
 
-console.log(Header());
+Header();
