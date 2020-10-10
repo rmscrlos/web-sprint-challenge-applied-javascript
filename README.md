@@ -28,13 +28,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is the DOM?
 
+  - An JS Object that contains all elements in order on a website.
+
 2. What is an event?
+
+  - Even is an action that happens on an element when triggered by an event listener.
 
 3. What is an event listener?
 
+  -It is the trigger/action that executes an event.
+
 4. Why would we convert a NodeList into an Array?
 
+  -NodeLists are "array-like" objects. The reason why we would convert them to an array is because no other methods, but forEach, can be applay to them.
+
 5. What is a component?
+
+  -Components are reusable parts of a page that are made of HTML, CSS or JS that can be use on a website or webApp.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
