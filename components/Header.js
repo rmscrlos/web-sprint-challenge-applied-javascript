@@ -21,11 +21,12 @@ function Header() {
   const temp = document.createElement('span');
 
   //adds class to elements
+  header.classList.add('header');
   date.classList.add('date');
   temp.classList.add('temp');
 
   //adds content to elements
-  date.textConet = 'MARCH 28, 2020';
+  date.textContent = 'MARCH 28, 2020';
   temp.textContent = '98°';
   h1.textContent = 'Lambda Times';
 

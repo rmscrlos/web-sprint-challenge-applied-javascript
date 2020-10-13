@@ -38,7 +38,9 @@ const data = axios.get(url)
   }
 
 })
-.catch(err => console.log(err));
+.catch(err => {
+  console.log(err);
+});
 
 function makeArticle(data) {
   //created elements
@@ -78,3 +80,29 @@ function makeArticle(data) {
 }
 
 const cards = document.querySelector('.cards-container');
+const errorContainer = document.querySelector
+
+// // stretch
+
+// window.addEventListener('offline', () => {
+//   const div = document.createElement('div');
+//   const titleMsg = document.createElement('h1');
+//   const errorMsg = document.createElement('h4');
+
+//   div.classList.add('error');
+//   titleMsg.classList.add('titleMsg');
+//   errorMsg.classList.add('errorMsg');
+
+//   titleMsg.textContent = '404';
+//   errorMsg.textContent = `You're offline! Please turn your network back online.`
+
+//   div.appendChild(titleMsg);
+//   div.appendChild(errorMsg);
+
+//   cards.appendChild(div);
+
+  
+//   div.style.display = 'block';
+// })
+// cards.style.display = 'none';
+// div.style.display = 'block';
